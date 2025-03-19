@@ -2,6 +2,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import { PostList } from "./components/PostList";
+import { PostCreator } from "./components/PostCreator";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         </a>
       </div>
       <h1>React + Vite + Atom</h1>
+      <PostCreator />
       <PostList />
     </>
   );
